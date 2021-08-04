@@ -15,7 +15,7 @@ pipeline {
                     [
                         artifactId: 'simple-app', 
                         classifier: '', 
-                        file: 'target/nexus_sample-2.0.0.war', 
+                        file: 'target/simple-app-3.0.0.war', 
                         type: 'war'
                     ]
                 ], 
